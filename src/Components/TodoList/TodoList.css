@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    background-color: #61dafb;
+}
+.TodoList__list{
+    height: fit-content;
+    width: fit-content;
+    padding: 1rem;
+    background: grey;
+    border-radius: 1rem;
+    transition: 500ms;
+}
+.TodoList__list li {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 0.8rem;
+
+}
+.TodoList__list:hover {
+    background: transparent;
+}
