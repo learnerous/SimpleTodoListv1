@@ -1,7 +1,13 @@
-.container{
-    display: flex;
+.container {
+
     background-color: #61dafb;
+    border-radius: 2rem;
 }
+.ccc{
+    display: flex;
+    flex-direction: row;
+}
+
 .TodoList__list{
     height: fit-content;
     width: fit-content;
@@ -9,6 +15,9 @@
     background: grey;
     border-radius: 1rem;
     transition: 500ms;
+}
+.Icon__Add{
+    border-radius: 2rem;
 }
 .TodoList__list li {
     display: flex;
@@ -18,4 +27,22 @@
 }
 .TodoList__list:hover {
     background: transparent;
+}
+
+
+table {
+    border: 2px solid black;
+    position: relative;
+
+    padding-left: 1rem;
+    border-radius: 2rem;
+    width: 100%;
+
+}
+th {
+    border-bottom: 1px solid black;
+}
+
+td {
+    text-align: center;
 }

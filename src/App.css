@@ -12,7 +12,11 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+.TodoList__container{
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
